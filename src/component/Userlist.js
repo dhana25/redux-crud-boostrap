@@ -46,7 +46,7 @@ const Userlist = (prop) => {
                                                 <td>{item.email}</td>
                                                 <td>{item.role}</td>
                                                 <td>{item.phone}</td>
-                                                <td><button className="btn btn-primary">View</button> | <Link to={'/updateuser/' + item.id} className="btn btn-success">Edit</Link> |
+                                                <td><Link to={'/viewuser/'+item.id} className="btn btn-primary">View</Link> | <Link to={'/updateuser/' + item.id} className="btn btn-success">Edit</Link> |
                                                     <button className="btn btn-danger" onClick={() => handledelete(item.id)}>Delete</button></td>
                                             </tr>
                                         )}
