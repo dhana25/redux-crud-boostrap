@@ -6,6 +6,19 @@
   height: 40vmin;
   pointer-events: none;
 }
+.header {
+  width: 100%;
+  background-color: blue;
+  padding: 5px;
+  text-align: left;
+}
+
+.text {
+  color:#FFF;
+  margin:3px;
+  text-decoration: none;
+  font-weight:bold;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

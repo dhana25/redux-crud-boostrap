@@ -1,0 +1,39 @@
+{
+  "user": [
+    {
+      "id": 1,
+      "name": "Admin",
+      "role": "admin",
+      "email": "admin@in.com",
+      "phone": "9777665561"
+    },
+    {
+      "id": 2,
+      "name": "Manager",
+      "role": "manage",
+      "email": "manage@in.com",
+      "phone": "9777665574"
+    },
+    {
+      "name": "Devi",
+      "email": "devi@gmail.com",
+      "phone": "7010777223",
+      "role": "staff",
+      "id": 3
+    },
+    {
+      "name": "dana",
+      "email": "guru@gmail.com",
+      "phone": "9876677666",
+      "role": "staff",
+      "id": 4
+    },
+    {
+      "id": 5,
+      "name": "test",
+      "email": "test@gmail.com",
+      "phone": "97665656777",
+      "role": "admin"
+    }
+  ]
+}
